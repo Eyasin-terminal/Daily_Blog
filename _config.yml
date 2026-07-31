@@ -10,7 +10,7 @@ author:
 
 # GitHub Pages Settings
 url: "https://analyst.github.io"
-baseurl: "" # Leave empty for root user/organization page or set to repo name
+baseurl: "/Daily_Blog"
 
 # Build Settings
 markdown: kramdown
