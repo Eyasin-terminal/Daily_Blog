@@ -1,6 +1,0 @@
-{
-  "name": "Institutional Research Monograph",
-  "description": "A minimalist, high-signal writing platform and Jekyll repository generator for market research and business intelligence analysts.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
