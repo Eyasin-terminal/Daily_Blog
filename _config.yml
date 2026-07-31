@@ -1,0 +1,33 @@
+# Jekyll Site Configuration
+# Institutional Research Monograph
+title: "Institutional Research Monograph"
+subtitle: "Market Intelligence & Technology Infrastructure Economics"
+description: "Independent analytical research on macroeconomics, capital-intensive computing infrastructure, semiconductor supply chains, and market intelligence."
+author:
+  name: "Business Intelligence & Market Research Analyst"
+  linkedin: "https://linkedin.com/in/analyst"
+  email: "analyst@research-monograph.org"
+
+# GitHub Pages Settings
+url: "https://Eyasin-terminal.github.io"
+baseurl: "/Daily_Blog"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Folder Exclusion
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - tsconfig.json
+  - vite.config.ts
+  - src/
+  - README.md

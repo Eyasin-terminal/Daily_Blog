@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<article class="post">
+
+  <!-- Post Executive Header -->
+  <header class="post-header">
+    <div class="post-meta-top">
+      <time datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %d, %Y" }}
+      </time>
+      <span class="meta-divider">•</span>
+      <span class="ledger-tag">{{ page.categories | first | default: page.category | default: "Research" }}</span>
+      {% if page.author %}
+        <span class="meta-divider">•</span>
+        <span>{{ page.author }}</span>
+      {% endif %}
+    </div>
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+    {% if page.summary %}
+      <p class="post-subtitle">{{ page.summary }}</p>
+    {% endif %}
+  </header>
+
+  <!-- Deep Read Markdown Output Container -->
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <!-- Post Navigation Footer -->
+  <footer class="post-footer">
+    <a href="{{ "/" | relative_url }}" class="back-link">
+      &larr; Return to Monograph Ledger
+    </a>
+  </footer>
+
+</article>
