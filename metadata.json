@@ -1,6 +1,0 @@
-{
-  "name": "The Eyasin Arafath Brief",
-  "description": "A daily synthesis of emerging concepts across economics, business strategy, and technology markets.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
