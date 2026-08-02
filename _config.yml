@@ -9,8 +9,8 @@ author:
   email: "eyasin.113t@gmail.com"
 
 # GitHub Pages Settings
-url: "https://<your-username>.github.io" # Replace <your-username> with your actual GitHub username (e.g., https://eyasin.github.io)
-baseurl: "/Daily_Blog" # Repository subpath name for GitHub Pages
+url: "https://eyasin-terminal.github.io"
+baseurl: "/Daily_Blog"
 
 # Build Settings
 markdown: kramdown
@@ -27,7 +27,5 @@ exclude:
   - Gemfile.lock
   - node_modules
   - package.json
-  - tsconfig.json
   - vite.config.ts
-  - src/
-  - README.md
+  - tsconfig.json
