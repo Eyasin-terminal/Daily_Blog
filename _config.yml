@@ -1,16 +1,16 @@
 # Jekyll Site Configuration
-# Institutional Research Monograph
-title: "Institutional Research Monograph"
-subtitle: "Market Intelligence & Technology Infrastructure Economics"
-description: "Independent analytical research on macroeconomics, capital-intensive computing infrastructure, semiconductor supply chains, and market intelligence."
+# The Eyasin Arafath Brief
+title: "The Eyasin Arafath Brief"
+subtitle: "A daily synthesis of emerging concepts across economics, business strategy, and technology markets."
+description: "A daily synthesis of emerging concepts across economics, business strategy, and technology markets."
 author:
-  name: "Business Intelligence & Market Research Analyst"
-  linkedin: "https://linkedin.com/in/analyst"
-  email: "analyst@research-monograph.org"
+  name: "Eyasin Arafath"
+  linkedin: "https://www.linkedin.com/in/eyasindataanalyst/"
+  email: "eyasin.113t@gmail.com"
 
 # GitHub Pages Settings
-url: "https://Eyasin-terminal.github.io"
-baseurl: "/Daily_Blog"
+url: "https://<your-username>.github.io" # Replace <your-username> with your actual GitHub username (e.g., https://eyasin.github.io)
+baseurl: "/Daily_Blog" # Repository subpath name for GitHub Pages
 
 # Build Settings
 markdown: kramdown

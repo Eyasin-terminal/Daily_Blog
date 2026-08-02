@@ -24,8 +24,10 @@
     <div class="container header-inner">
       <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
       <nav class="site-nav">
-        <a class="nav-link" href="{{ "/" | relative_url }}">Monograph Ledger</a>
-        <a class="nav-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a class="nav-link" href="{{ "/" | relative_url }}">Archive</a>
+        {% if site.author.linkedin %}
+        <a class="nav-link" href="{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        {% endif %}
       </nav>
     </div>
   </header>
@@ -44,8 +46,10 @@
         <span>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name | default: site.title }}</span>
       </div>
       <div class="footer-links">
-        <a class="footer-link" href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        {% if site.author.linkedin %}
+        <a class="footer-link" href="{{ site.author.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         <span class="meta-divider">•</span>
+        {% endif %}
         <a class="footer-link" href="mailto:{{ site.author.email }}">Contact</a>
       </div>
     </div>
